@@ -36,7 +36,7 @@ function onPageReload() {
   if (savedData) {
     const parsedData = JSON.parse(savedData);
     email.value = parsedData.email;
-    refs.message.value = parsedData.message;
+    message.value = parsedData.message;
     console.log(parsedData);
   }
 }
