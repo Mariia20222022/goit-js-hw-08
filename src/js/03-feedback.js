@@ -17,9 +17,6 @@ function onFormInput() {
   data.message = message.value;
 
   const stringifiedData = JSON.stringify(data);
-
-  console.log(stringifiedData);
-
   localStorage.setItem(STORAGE_KEY, stringifiedData);
 }
 
