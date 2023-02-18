@@ -29,5 +29,6 @@ function getDataBase() {
   if (parsedData) {
     email.value = parsedData.email;
     message.value = parsedData.message;
+    console.log(parsedData);
   }
 }
